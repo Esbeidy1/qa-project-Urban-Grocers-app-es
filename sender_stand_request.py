@@ -3,7 +3,7 @@ import requests
 import data
 
 
-def post_new_user(body):
+def post_new_user(body): #La función 'post_new_user' es para crear usuario y obtener el token de autenticación.
     response = requests.post(configuration.URL_SERVICE + configuration.CREATE_USER_PATH,
                              json=body,
                              headers=data.headers)
