@@ -10,6 +10,13 @@ Urban Grocers es una aplicación que permite a los usuarios crear y gestionar ki
 
 como un solo paquete. La funcionalidad de creación de kits es esencial para la experiencia del usuario y, por lo tanto, es crucial que sea probada exhaustivamente. 
 
+### En el proyecto se utilizaron la siguientes tecnologías:
+-pyton 
+-pytest
+-Requests (para envier solicitudes HTTP)
+-Git
+
+
 ### Pruebas Automatizadas 
 
 Se han automatizado las siguientes pruebas para el campo `name` en la solicitud de creación de un kit de productos: 
@@ -38,6 +45,7 @@ Prueba 4: Nombre con 512 caracteres
 Prueba 8: El parámetro `name` no se pasa en la solicitud 
 -Resultado Esperado: 400 
 -Resultado Actual: 500 
+
 Prueba 9: El parámetro `name` se pasa como un número en lugar de una cadena 
 -Resultado Esperado: 400 
 -Resultado Actual: 201
