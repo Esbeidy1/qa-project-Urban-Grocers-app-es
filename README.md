@@ -16,7 +16,6 @@ como un solo paquete. La funcionalidad de creación de kits es esencial para la 
 -Requests (para envier solicitudes HTTP)
 -Git
 
-
 ### Pruebas Automatizadas 
 
 Se han automatizado las siguientes pruebas para el campo `name` en la solicitud de creación de un kit de productos: 
