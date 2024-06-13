@@ -17,6 +17,4 @@ def post_new_client_kit(kit_body, auth_token): #la función 'post_new_client_kit
                              "Authorization": f"Bearer {auth_token}"
                          })
 
-response = post_new_client_kit(data.Kit,data.auth_token)
-print(response.status_code)
-print(response.json())
+
